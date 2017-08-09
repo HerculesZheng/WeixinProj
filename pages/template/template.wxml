@@ -1,0 +1,11 @@
+<!--template.wxml-->
+<template name="main">
+  <view class="container template">
+    <view class="content"></view>
+    <view class="toolbar">
+     <icon type="success" />
+     <text>Toolbar</text>
+    </view>
+  </view>
+</template>
+

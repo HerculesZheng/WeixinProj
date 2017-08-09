@@ -1,0 +1,37 @@
+/* teacher.wxss */
+.teacher-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.teacher-item{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;   
+  height: 128rpx;
+  width: 100%;
+  border: 1px solid black
+}
+
+.tavator{
+  width: 128rpx;
+  height: 128rpx;
+  /* display: flex;
+  flex-basis: 10%;
+  flex-grow: 10%; */
+}
+
+.infoText{
+  display: flex;
+  flex-direction: column;
+}
+
+.tname{
+  display: flex;
+  flex-basis: 100%;
+}
+
+.tmajor{
+  display: flex;
+  flex-basis: 100%;
+}

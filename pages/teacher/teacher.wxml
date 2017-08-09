@@ -1,0 +1,11 @@
+<view class="container teacher-list">
+  <block wx:for='{{teachers}}' wx:for-item='teacher' wx:key="*this">
+    <view class="teacher-item">
+      <image src='{{teacher.image}}' class="tavator"></image>
+      <view class="infoText">
+        <text class="tname">{{teacher.name}}</text>
+        <text class="tmajor">{{teacher.major}}</text>
+      </view>      
+    </view>
+  </block>
+</view>

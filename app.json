@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/template/template",
+    "pages/teacher/teacher"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "utils/image/home_nor.png",
+        "selectedIconPath": "utils/image/home_sel.png"
+      },
+      {
+        "pagePath": "pages/teacher/teacher",
+        "text": "学霸",
+        "iconPath": "utils/image/teacher_nor.png",
+        "selectedIconPath": "utils/image/teacher_sel.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "utils/image/log_nor.png",
+        "selectedIconPath": "utils/image/log_sel.png"
+      }
+    ]
+  }
+}
